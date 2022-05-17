@@ -22,4 +22,4 @@ app.use(express.json())
 app.use('/api/user', authRoute)
 app.use('/api/post', postRoute)
 
-app.listen(3000, () => console.log('running'))
+app.listen(process.env.PORT || 3000, () => console.log(' Server running...'))
