@@ -1,0 +1,28 @@
+{
+  "name": "authentication-with-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JethaLal420/authenticationWithJWT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JethaLal420/authenticationWithJWT/issues"
+  },
+  "homepage": "https://github.com/JethaLal420/authenticationWithJWT#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  }
+}
